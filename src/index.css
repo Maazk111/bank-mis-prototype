@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+@theme {
+  /* Brand palette — matches the DHA Suffa MIS report (navy + light blue) */
+  --color-navy-950: #16294A;
+  --color-navy-900: #1F3864;
+  --color-navy-700: #2E5C8A;
+  --color-navy-500: #4472C4;
+  --color-surface: #DCE6F1;
+  --color-surface-soft: #F3F7FC;
+}
+
+@layer base {
+  body {
+    @apply bg-surface-soft text-slate-800 antialiased;
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+}
